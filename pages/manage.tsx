@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { FormContext, useForm } from 'react-hook-form'
-import { findLinkByAlias, deleteLinkAlias } from '../graphql/api'
+import { findLinkByAlias, deleteLinkAlias } from '../components/api'
 import fetch from 'isomorphic-fetch'
 // custom imports
 import Layout from '../components/Layout'
