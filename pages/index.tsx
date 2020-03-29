@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { FormContext, useForm } from 'react-hook-form'
-import { createLinkAlias } from '../raphql/api'
+import { createLinkAlias } from '../components/api'
 import fetch from 'isomorphic-fetch'
 // custom imports
 import Layout from '../components/Layout'
@@ -8,7 +8,7 @@ import Header from '../components/Header'
 import Form from '../components/Form'
 import Overlay from '../components/Overlay'
 import Error from '../components/Error'
-import getAlias from '../utils/getAlias'
+import getAlias from '../components/getAlias'
 
 function F(o){
   
