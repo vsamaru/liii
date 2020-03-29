@@ -1,0 +1,30 @@
+{
+  "name": "shorten-url",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "now --prod"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "9.1.7",
+    "now": "^17.1.1",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-flip-toolkit": "^7.0.7",
+    "react-github-corner": "^2.3.0",
+    "react-hook-form": "^4.4.4",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "prettier": "^1.19.1",
+    "svelte-swipeable-sheets": "0.0.4",
+    "typescript": "^3.7.4"
+  }
+}
