@@ -11,7 +11,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "isomorphic-fetch": "^2.2.1",
-    "next": "9.1.7",
+    "next": "9.3.3",
     "now": "^17.1.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
